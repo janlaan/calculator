@@ -3,9 +3,9 @@ languages:
 - name: cpp
   production:
     exclude:
-    - .*/UnitTest.*\.cpp
+    - .*/CalculatorUnitTests/.*\.cpp
     - .*/internal/.*\.cp
   test:
     include:
-      - .*/UnitTest.*\.cpp
+      - .*/CalculatorUnitTests/.*\.cpp
       - .*/internal/.*\.cpp
