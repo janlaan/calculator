@@ -1,0 +1,7 @@
+component_depth: 2
+- name: cpp
+  production:
+  test:
+    exclude:
+      - .*/UnitTest.*\.cpp
+      - .*/internal/.*\.cpp
